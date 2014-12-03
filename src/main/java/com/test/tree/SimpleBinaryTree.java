@@ -134,6 +134,7 @@ public class SimpleBinaryTree<X> {
 	
 	
 	private void traverseTillHeight(Node<X> node, int h, int i){
+		
 		if(i == h){
 			System.out.println(node.data);
 			return;

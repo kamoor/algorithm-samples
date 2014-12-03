@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 import java.util.concurrent.ArrayBlockingQueue;
 
 
@@ -95,6 +96,26 @@ public class Graph<X> {
 		
 	}
 	
+	
+
+	
+public void dfs2(Stack<Node<X>> stack, Node<X> node){
+		
+		node.visited = true;
+		printNode(node);
+		Node<X> neighbor =null;
+		while((neighbor = this.getUnvisitedChildNode(node)) !=null){
+			neighbor.visited = true;
+			stack.push(neighbor);
+		}
+		
+		if(stack.isEmpty())
+			return;
+		dfs2(stack, stack.pop());
+	}
+	
+	
+	
 	private Node<X> getUnvisitedChildNode(Node<X> node){
 		for(Node<X> n: node.neighbors){
 			if(n.visited == false){
@@ -125,7 +146,17 @@ public class Graph<X> {
 		g.addVertex("F","C");
 		g.addVertex("F","D");
 		g.addVertex("C","H");
-		g.bfs("A");
+		g.dfs2(new Stack(), g.find("A"));  
+		//A
+		//B
+		//G
+		//D
+		//E
+		//F
+		//C
+		//H
+		
+		
 		
 	}
 	

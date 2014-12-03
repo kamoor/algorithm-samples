@@ -68,7 +68,7 @@ public class MergeSort {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int []input = {10,2,10,10,3,8,1000,23,232,1,800};
+		int []input = {10,2,10,10,3,4,8,1000,23,232,1,800};
 		new MergeSort().sort(input);
 		System.out.println(java.util.Arrays.toString(input));
 				
