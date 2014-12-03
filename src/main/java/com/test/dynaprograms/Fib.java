@@ -1,4 +1,4 @@
-package com.kamoor.dynaprograms;
+package com.test.dynaprograms;
 
 public class Fib {
 	
