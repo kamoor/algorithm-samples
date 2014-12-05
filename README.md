@@ -13,3 +13,6 @@ MORE ALGORITHMS ADDED.
 2. Max Cover Problem in com.test.maxcover
    http://en.wikipedia.org/wiki/Maximum_coverage_problem
    
+3. Number theory
+	3.1. Greatest Common divisor using Euclidean method
+	
