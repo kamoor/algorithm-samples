@@ -30,6 +30,7 @@ public class GcdEuclideanWay {
 	}
 	public static void main(String[] args) {
 		System.out.println( new GcdEuclideanWay().findGcd(1785,  546));
+		System.out.println( new GcdEuclideanWay().findGcd(99,  78));
 	}
 
 }

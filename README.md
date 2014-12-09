@@ -50,6 +50,10 @@ Sort
 4. Radix
 5. Quick
 
+Random Number Generators
+========================
+1. LCG: http://en.wikipedia.org/wiki/Linear_congruential_generator
+
 Java Features:
 ==============
 1. Annotations

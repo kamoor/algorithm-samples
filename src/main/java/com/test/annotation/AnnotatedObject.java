@@ -8,5 +8,7 @@ package com.test.annotation;
 @MyAnnotation(name="abcd")
 public class AnnotatedObject {
 
-
+     public static void main(){
+    	 System.out.println();
+     }
 }
