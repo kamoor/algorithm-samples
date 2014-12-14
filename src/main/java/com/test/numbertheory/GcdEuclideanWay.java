@@ -50,6 +50,8 @@ public class GcdEuclideanWay {
 		System.out.println( new GcdEuclideanWay().findGcd(30,  24));
 		
 		System.out.println( new GcdEuclideanWay().findGcdRecursive(1785,  546));
+		System.out.println( new GcdEuclideanWay().findGcdRecursive(350,  294	));
+		
 	}
 
 }
