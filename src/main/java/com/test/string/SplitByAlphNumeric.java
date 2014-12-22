@@ -1,5 +1,10 @@
 package com.test.string;
 
+/**
+ * Split a string using regular expression
+ * @author kamoorr
+ *
+ */
 public class SplitByAlphNumeric {
 	
 	static String regEx = "[^A-Z0-9]+|(?<=[A-Z])(?=[0-9])|(?<=[0-9])(?=[A-Z])";
