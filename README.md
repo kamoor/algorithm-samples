@@ -35,6 +35,7 @@ Design Patterns
 7. Pools
 8. Singleton
 9. Prototype
+10. Observer Pattern 
 
 
 Search
