@@ -2,12 +2,22 @@ package com.test.designpatterns.abstractfactory;
 
 
 public class FactoryMaker {
+	
+	
+	static AbstractFactory concreteFactory1;
+	
+	static AbstractFactory concreteFactory2;
+	
+	static{
+		concreteFactory1 = new ConcreteFactory1();
+		concreteFactory2 = new ConcreteFactory2();
+	}
 
 	public static AbstractFactory factoryMaker(boolean isToyCarFactory){
 		if(isToyCarFactory){
-			return  new ConcreteFactory1();
+			return  concreteFactory1;
 		}else{
-			return new ConcreteFactory2();
+			return concreteFactory2;
 		}
 	}
 	
