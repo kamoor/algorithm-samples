@@ -1,6 +1,12 @@
 package com.test.designpatterns.abstractfactory;
 
 
+/**
+ * Abstract factory simplify factory method pattern when there are many implementations of an interface. 
+ * @author kamoorr
+ *
+ */
+
 public class FactoryMaker {
 	
 	

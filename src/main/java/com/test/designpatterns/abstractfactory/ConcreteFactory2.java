@@ -8,7 +8,9 @@ public class ConcreteFactory2 extends AbstractFactory{
 	
 	@Override
 	public IProduct createProduct() {
-	    return new ToyCar();
+		IProduct car = new ToyCar();
+		car.setName("Toy");
+	    return car;
 	}
 
 }

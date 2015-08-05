@@ -36,7 +36,7 @@ Design Patterns
 8. Singleton
 9. Prototype
 10. Observer Pattern 
-
+11. Decorator Pattern
 
 Search
 ======
