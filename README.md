@@ -1,3 +1,7 @@
+
+[![Build Status](https://travis-ci.org/kamoor/algorithm-samples.svg?branch=master)](https://travis-ci.org/kamoor/algorithm-samples.svg?branch=master)
+
+
 Some simple programs for java beginners
 
 Famous Algorithms in computer science
