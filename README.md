@@ -5,7 +5,7 @@
 Some simple programs for java beginners
 
 Famous Algorithms in computer science
-=====================================
+-------------------------------------
 
 1. Max Flow Problem in com.test.maxflow 
    http://en.wikipedia.org/wiki/Maximum_flow_problem
